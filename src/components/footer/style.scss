@@ -1,0 +1,249 @@
+@import '../../assets/style/mixin.scss';
+
+
+
+.L-Footers{
+    background: #232323;
+    width: 100%;
+
+    .futermeat{
+        width: 95%;
+        margin: 0 auto;
+
+
+        .serche{
+            display:flex ;
+            width: 60%;
+            height: 150px;
+            margin: 0 auto;
+            padding-top: 50px;
+            
+            @include screen(446px) {
+
+                flex-direction: column;
+    
+    
+            }
+            
+
+            .leftparts{
+
+                color: white;
+
+                .radio{
+                    margin-right: 5px;
+                }
+                
+
+            .bottompartes{
+                margin-top: 10px;
+                width: 400px;
+                color: #B1B1B1;
+
+                @include screen(880px) {
+
+                    width: 200px;
+        
+        
+                }
+
+                @include screen(566px) {
+
+                 font-size: 10px;
+        
+        
+                }
+            }
+
+            }
+
+            .rightparts{
+                width: 600px;
+                background-color: aquamarine;
+                height: 50px;
+
+                @include screen(972px) {
+
+                    width: 800px;
+        
+        
+                }
+
+
+                @include screen(446px) {
+
+                    width: 180px;
+        
+        
+                }
+
+                .inp1{
+                    display: inline-flex;
+width: 100%;
+height: 100%;
+align-items: center;
+gap: 362px;
+flex-shrink: 0;
+
+
+@include screen(972px) 
+{
+
+    width: 100%;
+    height: 50%;
+
+
+}
+                }
+
+            }
+        }
+
+        .footerimgs{
+
+            width: 95%;
+            display: flex;
+            margin:  0 auto;
+
+            @include screen(526px) {
+
+                flex-direction: column;
+    
+    
+            }
+
+
+
+            .leftimg{
+                width: 150px;
+                padding-top: 20px;
+
+                @include screen(850px) {
+
+                    width: 100px;
+        
+        
+                }
+                @include screen(420px) {
+
+                    flex-direction: column;
+                    margin: 0 auto;
+                    margin-bottom: 30px;
+                    
+        
+        
+                }
+
+                .face1{
+                    width: 90px;
+                    border-radius: 50%;
+                }
+                .nameface{
+                    margin-top: 10px;
+                    margin-left: 7px;
+                    color: white;
+                }
+
+
+            }
+
+            .centerparts{
+                color: white;
+                display: flex;
+                justify-content: space-around;
+                margin-top: 5%;
+
+                @include screen(420px) {
+
+                    flex-direction: column;
+                    margin: 0 auto;
+                    
+        
+        
+                }
+
+
+                
+                .centerchild1{
+
+
+                    @include screen(850px) {
+
+                        font-size: 15px;
+            
+            
+                    }
+                    @include screen(760px) {
+
+                        font-size: 10px;
+            
+            
+                    }
+                    @include screen(420px) {
+
+                        margin-bottom: 30px;
+                        font-size: 20px;   
+            
+                    }
+
+                    .write{
+
+                        margin-bottom: 15px;
+
+                    }
+                  
+                }
+
+            }
+            
+            .rightparts{
+                display: flex;
+                justify-content: space-around;
+                margin-top: 5%;
+                margin-left: 5%;
+                width: 40%;
+
+                @include screen(602px) {
+
+                    flex-direction: column;
+        
+        
+                }
+                @include screen(420px) {
+
+                    flex-direction: column;
+                    margin: 0 auto;
+                    font-size: 20px;
+        
+        
+                }
+
+                .lefit{
+
+
+                    .textus{
+                        color: white;
+
+                        margin-bottom: 15px;
+
+
+                    }
+
+                    .descripttes{
+                        color: #B0B0B0;
+font-family: Helvetica;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 141.176% */
+
+
+                    }
+
+                }
+
+            }
+
+        }
+    }
+}

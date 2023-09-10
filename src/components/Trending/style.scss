@@ -1,0 +1,31 @@
+.trending{
+    width: 100%;
+    background-color: #232323;
+
+    .title{
+        // background-color: red;
+        color: #ffffff;
+        text-align: center;
+        margin:  auto;
+        font-size: 50px;
+
+        .titletxt{
+            padding-top: 60px;
+        }
+    }
+
+    .itemsflex{
+        justify-content: space-around;
+        align-items: center;
+
+        
+        .items{
+            flex-shrink: 0;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 50px;
+           
+        }
+    }
+ 
+}

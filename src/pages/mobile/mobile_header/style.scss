@@ -1,0 +1,93 @@
+.L-mobileheader{
+
+    width: 100%;
+        height: 62px;
+        background-color:#232323;
+
+    .M-header{
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .leftmobbox{
+            width: 33%;
+            height: 62px;
+            display: flex;
+
+
+            .menuemob{
+
+                
+                .leftpt{
+                width: 65px;
+                height: 62px;
+                margin-right: 10px;
+                margin-bottom: 50px;
+                flex-direction: column;
+
+                .lineheader{
+                    width: 66%;
+                    height: 6px;
+                    background-color: white;
+                    margin: -5px auto;
+                    margin-top: 14px;
+                }
+                
+            }
+        }
+
+            .rightpt{
+                width: 65px;
+                height: 62px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                color: white;
+
+            }
+        }
+        .centermobbox{
+            width: 30%;
+            height: 62px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+
+            .namesitemob{
+                font-size: 25px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        }
+    
+        .rightmobbox{
+            width: 30%;
+            height: 62px;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            .treeboxs{
+                width: 60px;
+                height: 60px;
+                background-color: white;
+                border-radius: 100px;
+                text-align: center;
+                display: flex;
+                    align-items: center;
+                    justify-content: center;
+                
+                .tree{
+                    font-size: 25px;
+                }
+            }
+        }
+    
+    
+
+        
+    }
+}

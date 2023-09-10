@@ -1,0 +1,131 @@
+.AboutUs{
+    width: 100%;
+    background-color: #232323;
+    padding-top: 100px;
+   
+    .aboutcont{
+        display: flex;
+        justify-content: center;
+    }
+    .clickabout{
+        width: 208px;
+height: 53px;
+flex-shrink: 0;
+border: 1px solid #FFFDFD;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+cursor: pointer;
+transition: 0.50s;
+&:hover{
+    box-shadow: 0px 0px 46px 0px rgba(200, 200, 200, 0.25);
+}
+    }
+
+    .line-pack{
+
+        padding-top: 150px;
+
+        .line1{
+            margin: 0 auto;
+
+            width: 90%;
+            background: #E2E2E2;
+height: 1px;
+        }
+
+        .component{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 350px;
+            .title-about{
+                text-align: center;
+                width: 550px;
+                font-size: 25px;
+                padding-top: 50px;
+                color: #FFFFFF;
+                
+            }
+
+            .icones{
+                display: flex;
+                padding-top: 30px;
+                .icos{
+                    margin-left: 5px;
+                    width: 50%;
+                    cursor: pointer;
+                    
+                    
+                }
+
+                    
+                }
+        }
+
+        
+        
+    }
+
+    .instapicure{
+        padding-top: 50px;
+        width: 100%;
+        background-color: #232323;
+        padding-bottom: 50px;
+
+        .centerpart{
+            margin: 0 auto;
+
+            width: 90%;
+        }
+
+.followpart{
+
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+    .leftfollow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 25px;
+        color: #FFFFFF;
+    }
+    .rightfollow{
+        width: 314px;
+height: 60px;
+flex-shrink: 0;
+border: 1px solid #FFF;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #FFFFFF;
+cursor: pointer;
+transition: 0.50s;
+&:hover{
+    box-shadow: 0px 0px 46px 0px rgba(200, 200, 200, 0.25);
+
+}
+    }
+
+}
+       
+    }
+
+    .pichure{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .line2{
+        margin: 0 auto;
+
+        width: 100%;
+        background: #E2E2E2;
+height: 1px;
+    }
+}
