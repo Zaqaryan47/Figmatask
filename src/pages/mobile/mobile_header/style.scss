@@ -1,4 +1,40 @@
 .L-mobileheader{
+    position: relative;
+
+    .headerblock{
+        position: absolute;
+        top: 62px;
+        width: 100%;
+        background-color: black;
+        
+    .centr-box{
+        
+        width: 100%;
+        text-align: center;
+
+        .routtin{
+            width: 100%;
+            margin-top: 15px;
+            
+            
+        .rout1{
+            width: 100%;
+            height: 40px;
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            border: 1px solid silver;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+            
+        }
+    }
+    }
+}
+
 
     width: 100%;
         height: 62px;
@@ -17,8 +53,10 @@
             display: flex;
 
 
-            .menuemob{
+            
 
+            .menuemob{
+                cursor: pointer;
                 
                 .leftpt{
                 width: 65px;
@@ -33,6 +71,7 @@
                     background-color: white;
                     margin: -5px auto;
                     margin-top: 14px;
+                    
                 }
                 
             }
